@@ -1,0 +1,33 @@
+[2026-01-16 17:14:54.393775] IP: 127.0.0.1 | Reason: SQL Injection | Risk: 90 | Payload: ' OR 1=1 --
+[2026-01-16 17:18:14.940883] IP: 127.0.0.1 | Reason: SQL Injection | Risk: 90 | Payload: ' OR 1=1 --
+[2026-01-16 17:18:15.764697] IP: 127.0.0.1 | Reason: SQL Injection | Risk: 90 | Payload: ' OR 1=1 --
+[2026-01-16 17:18:16.175132] IP: 127.0.0.1 | Reason: SQL Injection | Risk: 90 | Payload: ' OR 1=1 --
+[2026-01-16 17:18:16.357367] IP: 127.0.0.1 | Reason: SQL Injection | Risk: 90 | Payload: ' OR 1=1 --
+[2026-01-16 17:18:16.526281] IP: 127.0.0.1 | Reason: SQL Injection | Risk: 90 | Payload: ' OR 1=1 --
+[2026-01-16 17:18:16.691779] IP: 127.0.0.1 | Reason: SQL Injection | Risk: 90 | Payload: ' OR 1=1 --
+[2026-01-16 17:18:17.286705] IP: 127.0.0.1 | Reason: SQL Injection | Risk: 90 | Payload: ' OR 1=1 --
+[2026-01-16 17:18:17.475082] IP: 127.0.0.1 | Reason: SQL Injection | Risk: 90 | Payload: ' OR 1=1 --
+[2026-01-16 17:18:17.653976] IP: 127.0.0.1 | Reason: SQL Injection | Risk: 90 | Payload: ' OR 1=1 --
+[2026-01-16 17:18:40.258169] IP: 127.0.0.1 | Reason: SQL Injection | Risk: 90 | Payload: ' OR 1=1 --
+[2026-01-16 17:18:40.819840] IP: 127.0.0.1 | Reason: SQL Injection | Risk: 90 | Payload: ' OR 1=1 --
+[2026-01-16 17:18:41.206671] IP: 127.0.0.1 | Reason: SQL Injection | Risk: 90 | Payload: ' OR 1=1 --
+[2026-01-16 17:25:10.063433] IP: 127.0.0.1 | Reason: SQL Injection | Risk: 90 | Payload: ' or 1=1 --
+[2026-01-16 17:25:10.727283] IP: 127.0.0.1 | Reason: SQL Injection | Risk: 90 | Payload: ' or 1=1 --
+[2026-01-16 17:25:11.663805] IP: 127.0.0.1 | Reason: SQL Injection | Risk: 90 | Payload: ' or 1=1 --
+[2026-01-16 17:28:44.754154] IP: 127.0.0.1 | Reason: SQL Injection | Risk: 90 | Payload: ' or 1=1 --
+[2026-01-16 17:30:15.655936] IP: 127.0.0.1 | Reason: SQL Injection | Risk: 90 | Payload: union select username, password from users
+[2026-01-16 17:30:51.456122] IP: 127.0.0.1 | Reason: SQL Injection | Risk: 90 | Payload: or 1=1
+[2026-01-16 17:30:52.440924] IP: 127.0.0.1 | Reason: SQL Injection | Risk: 90 | Payload: or 1=1
+[2026-01-16 17:30:53.185889] IP: 127.0.0.1 | Reason: SQL Injection | Risk: 90 | Payload: or 1=1
+[2026-01-16 17:30:53.720987] IP: 127.0.0.1 | Reason: SQL Injection | Risk: 90 | Payload: or 1=1
+[2026-01-16 17:31:04.839647] IP: 127.0.0.1 | Reason: XSS | Risk: 80 | Payload: <script>alert('xss')</script>
+[2026-01-16 17:31:22.367114] IP: 127.0.0.1 | Reason: XSS | Risk: 80 | Payload: <img src=x onerror=alert(1)>
+[2026-01-16 17:31:37.003482] IP: 127.0.0.1 | Reason: Command Injection | Risk: 85 | Payload: ; ls -la
+[2026-01-16 17:31:53.804374] IP: 127.0.0.1 | Reason: Command Injection | Risk: 85 | Payload: && whoami
+[2026-01-16 17:33:50.608106] IP: 127.0.0.1 | Reason: Command Injection | Risk: 85 | Payload: ; ls -la
+[2026-01-16 17:40:06.703379] IP: 127.0.0.1 | Reason: Path Traversal | Risk: 75 | Payload: ../../etc/passwd
+[2026-01-16 17:40:14.166180] IP: 127.0.0.1 | Reason: Path Traversal | Risk: 75 | Payload: ..\\..\\windows\\system32
+[2026-01-16 17:40:19.835549] IP: 127.0.0.1 | Reason: Path Traversal | Risk: 75 | Payload: %2e%2e%2f%2e%2e%2fetc%2fpasswd
+[2026-01-16 18:00:58.916915] IP: 127.0.0.1 | Reason: Path Traversal | Risk: 75 | Payload: ../../etc/passwd
+[2026-01-16 18:01:45.763705] IP: 127.0.0.1 | Reason: Path Traversal | Risk: 75 | Payload: ../../etc/passwd
+[2026-01-16 18:02:08.159799] IP: 127.0.0.1 | Reason: Path Traversal | Risk: 75 | Payload: ../../etc/passwd
